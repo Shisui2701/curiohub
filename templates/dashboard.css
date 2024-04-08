@@ -1,0 +1,33 @@
+
+        
+
+
+        body {
+            
+            background-color: black;
+            /* background-color: linear-gradient(#00c6fb,#005bea); */
+            text-align: center; /* Center align the content */
+        }
+        h1 {
+            color: rgb(255, 255, 255); /* Example styling for the heading */
+        }
+        .image-container {
+            display: flex; /* Use flexbox to align images in one line */
+            justify-content: center; /* Center align the images */
+            margin-bottom: 30px; /* Add some spacing between images and logout link */
+        }
+        .image-container img {
+            width: 200px; /* Set a fixed width for the images */
+            height: 200px; 
+            margin: 0 20px; /* Add some spacing between images */
+        }
+        .astrooo {
+            color: rgb(23, 24, 23);
+        
+            font-family:"Sofia", Arial,sans-serif;
+        }
+        .logout-link {
+            display: block; /* Display logout link as a block element */
+            text-align: left; /* Left align the logout link */
+        }
+   
